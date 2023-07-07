@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Apple : Collectable
 {
-
     [SerializeField] int appleValue = 250;
 
     protected override void Collected()
