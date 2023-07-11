@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class Collectable : MonoBehaviour
 {
- public GameObject SmashEffect;
-    void OnMouseDown()
+ private void OnTrihherEnter2D(Collider2D collision)
+ {
+    if (collision.tag == "Player")
     {
-        Destroy(gameObject);
+        Collected();
     }
+ }
 
-     protected virtual void Collected()
+ protected virtual void Collected()
  {
     //override
  }
