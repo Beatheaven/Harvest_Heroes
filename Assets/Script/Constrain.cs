@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class constraints : MonoBehaviour
+public class Constrain : MonoBehaviour
 {
     private void OnMouseDown()
     {
