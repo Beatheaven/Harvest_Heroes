@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Collectable : MonoBehaviour
 {
- private void OnTrihherEnter2D(Collider2D collision)
+ private void OnTriggerEnter2D(Collider2D collision)
  {
-    if (collision.tag == "Player")
+    if (collision.tag == "Player2")
     {
         Collected();
     }
