@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 783432096748533464}
   - component: {fileID: 6880870481228252151}
   - component: {fileID: 6767178391034047216}
+  - component: {fileID: 2334851504088918276}
+  - component: {fileID: 9091958859037238689}
   m_Layer: 0
   m_Name: Apel_2
   m_TagString: Untagged
@@ -104,9 +106,9 @@ Rigidbody2D:
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!58 &6767178391034047216
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -123,3 +125,28 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 2.185
+--- !u!114 &2334851504088918276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4130860759440323064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c13add1e8d928441920c6b58d46d82b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  appleValue: 1
+--- !u!114 &9091958859037238689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4130860759440323064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ebcbf8adcb08524ca5865e86893b19d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

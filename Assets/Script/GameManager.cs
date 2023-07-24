@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    private int collectedApples, victoryCondition = 1000;
+    private int collectedApples, victoryCondition = 25;
 
     private void Awake()
     {
