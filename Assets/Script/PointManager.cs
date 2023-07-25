@@ -35,7 +35,7 @@ public class PointManager : MonoBehaviour
 
     public void UpdateAppleUI(int _apples, int _victoryCondition)
     {
-        txtApples.text = "Points: " + _apples;
+        txtApples.text = "" + _apples;
     }
 
     public void ShowVictoryCondition(int _apples, int _victoryCondition)
