@@ -9,6 +9,7 @@ public class TimerController : MonoBehaviour
     private float currentTime; // Waktu saat ini dalam detik
     private bool isTimerRunning = true; // Apakah timer sedang berjalan?
     [SerializeField] TextMeshProUGUI timerText; // Referensi teks UI untuk menampilkan timer
+    public GameObject gameOverPanel;
 
     private void Start()
     {
@@ -47,7 +48,22 @@ public class TimerController : MonoBehaviour
 
     private void GameOver()
     {
-        // Tambahkan logika di sini untuk menangani situasi saat timer habis
-        // Misalnya, menampilkan pesan game selesai, menampilkan skor akhir, atau kembali ke menu utama.
+        // Tambahkan logika game over di sini
+        // Misalnya, menampilkan panel game over dan menjeda permainan.
+
+        ShowGameOverPanel(); // Menampilkan panel game over
+        Time.timeScale = 0f; // Menghentikan waktu dalam permainan
+
+        // Tambahan logika lainnya sesuai dengan game Anda
+    }
+
+    private void ShowGameOverPanel()
+    {
+        gameOverPanel.SetActive(true);
+    }
+
+    private void HideGameOverPanel()
+    {
+        gameOverPanel.SetActive(false);
     }
 }
