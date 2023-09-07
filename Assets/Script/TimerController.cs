@@ -52,7 +52,7 @@ public class TimerController : MonoBehaviour
         // Misalnya, menampilkan panel game over dan menjeda permainan.
 
         ShowGameOverPanel(); // Menampilkan panel game over
-        Time.timeScale = 0f; // Menghentikan waktu dalam permainan
+         // Menghentikan waktu dalam permainan
 
         // Tambahan logika lainnya sesuai dengan game Anda
     }

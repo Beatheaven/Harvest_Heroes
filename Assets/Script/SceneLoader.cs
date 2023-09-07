@@ -24,4 +24,9 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("about");
     }
+
+    public void load_menu()
+    {
+        SceneManager.LoadScene("GameMenu");
+    }
 }
